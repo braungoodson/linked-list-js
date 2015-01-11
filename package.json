@@ -1,7 +1,7 @@
 {
   "name": "linked-list-js",
   "description": "Linked list implementation in JavaScript",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {},
   "author": "Ian Macalinao <me@ian.pw>",
   "repository": "simplyianm/linked-list-js",
