@@ -36,4 +36,16 @@ LinkedList.prototype.iterator = function() {
   };
 };
 
+/**
+ * Converts this LinkedList to an array.
+ */
+LinkedList.prototype.toArray = function() {
+  var it = this.iterator();
+  var ret = [];
+  while (it.hasNext()) {
+    ret.push(it.next());
+  }
+  return ret;
+};
+
 module.exports = LinkedList;
