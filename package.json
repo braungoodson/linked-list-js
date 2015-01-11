@@ -1,0 +1,21 @@
+{
+  "name": "linked-list-js",
+  "description": "Linked list implementation in JavaScript",
+  "version": "0.1.0",
+  "dependencies": {},
+  "author": "Ian Macalinao <me@ian.pw>",
+  "repository": "simplyianm/linked-list-js",
+  "license": "MIT",
+  "keywords": [
+    "linked-list-js",
+    "linked-list",
+    "algorithms"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
