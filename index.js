@@ -1,11 +1,11 @@
 /**
  * Creates a LinkedList from an array.
  */
-function LinkedList() {
+function LinkedList(arr) {
   var last = null;
-  for (var i = 0; i < args.length; i++) {
+  for (var i = 0; i < arr.length; i++) {
     var node = {
-      value: args
+      value: arr
     };
     if (!last) {
       this.head = node;
